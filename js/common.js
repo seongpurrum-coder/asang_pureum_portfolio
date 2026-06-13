@@ -143,7 +143,7 @@ function changeProjectPage(callback) {
   const projectNav = document.querySelector('.project-nav');
 
   let currentFilter = 'all';
-  let allToggleState = 0; // 0 = 6장, 1 = 1장
+  let allToggleState = 0;
 
   function hideAllCards() {
     projectCards.forEach((card) => {
@@ -227,10 +227,10 @@ function changeProjectPage(callback) {
       renderAllDesktop();
       projectNav.classList.remove('is-hidden');
     } else if (filter === 'web') {
-      showCardsByIndex([5,6]);
+      showCardsByIndex([1, 2]);
       projectNav.classList.add('is-hidden');
     } else if (filter === 'graphic') {
-      showCardsByIndex([0, 1, 2, 3, 4]);
+      showCardsByIndex([0, 3, 4, 5, 6]);
       projectNav.classList.add('is-hidden');
     }
   }
