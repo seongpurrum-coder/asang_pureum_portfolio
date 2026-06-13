@@ -343,7 +343,7 @@ nav ul li:hover a {
 .home-script {
   font-family: var(--sub-font1);
   font-size: 16rem;
-  color: var(--point-color);
+  color: #000;
   margin-right: 120px;
 
 }
