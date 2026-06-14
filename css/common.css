@@ -210,7 +210,7 @@ nav ul li:hover a {
 
 /* 제목, 타이핑효과 */
 .home-title {
-  font-size: 9rem;
+  font-size: 7rem;
   font-weight: 500;
   line-height: 1.5;
 }
@@ -344,13 +344,13 @@ nav ul li:hover a {
 /* script */
 .home-script {
   font-family: var(--sub-font1);
-  font-size: 16rem;
+  font-size: 14rem;
   color: #222;
   margin-right: 120px;
 
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1500px) {
 
   .home-left {
     gap: 20px;
@@ -361,14 +361,25 @@ nav ul li:hover a {
   }
 
   .home-script {
-    font-size: 10rem;
+    font-size: 12rem;
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
 
   .home-title {
     font-size: 5rem;
+  }
+
+  .home-script {
+    font-size: 10rem;
+    margin-right: 70px;
+  }
+}
+@media (max-width: 900px) {
+
+  .home-title {
+    font-size: 4rem;
   }
 
   .home-script {
@@ -376,7 +387,6 @@ nav ul li:hover a {
     margin-right: 70px;
   }
 }
-
 @media (max-width: 768px) {
 
   #home .home-line {
@@ -394,11 +404,11 @@ nav ul li:hover a {
   }
 
   .home-title {
-    font-size: 4.5rem;
+    font-size: 3rem;
   }
 
   .home-script {
-    font-size: 7.5rem;
+    font-size: 6rem;
     margin-right: 0;
   }
 }
@@ -415,7 +425,7 @@ nav ul li:hover a {
   }
 
   .home-title {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   .home-script {
@@ -442,12 +452,12 @@ nav ul li:hover a {
   }
 
   .home-title {
-    font-size: 3rem;
+    font-size: 2.5rem;
     line-height: 1.6;
   }
 
   .home-script {
-    font-size: 4rem;
+    font-size: 4.5rem;
     padding-bottom: 15px;
     margin-right: 5px;
   }
@@ -841,17 +851,19 @@ nav ul li:hover a {
 
 .about-script {
   font-family: var(--sub-font1);
-  font-size: 13rem;
+  font-size: 12rem;
   color: #111;
   opacity: 80%;
   line-height: 117%;
   z-index: 1;
   letter-spacing: 13%;
   font-weight: 400;
+  margin-left: 50px;
 }
 
 .about-script span {
-  font-size: 8rem;
+  font-size: 7rem;
+  margin-left: 50px;
 }
 
 .about-image-box {
@@ -1004,8 +1016,9 @@ nav ul li:hover a {
   }
 
   .about-script {
-    font-size: 12rem;
+    font-size: 10rem;
     line-height: 1.17;
+    margin-left: 0;
   }
 }
 
@@ -1103,7 +1116,7 @@ nav ul li:hover a {
   }
 
   .about-script {
-    font-size: 8rem;
+    font-size: 7rem;
   }
 
   .about-script span {
@@ -1792,7 +1805,7 @@ nav ul li:hover a {
 
 #contact-top ul h4 span {
   font-weight: 700;
-  font-size: 30px;
+  font-size: 3rem;
 }
 
 #contact-top ul p {
@@ -1831,7 +1844,9 @@ nav ul li:hover a {
     font-size: 2.1rem;
     padding-bottom: 30px;
   }
-
+    #contact-top ul h4 span{
+    font-size: 2.5rem;
+  }
   #contact-top ul p {
     font-size: 1.6rem;
   }
@@ -1873,7 +1888,6 @@ nav ul li:hover a {
     width: 7px;
     height: 7px;
     border-radius: 50%;
-    background: var(--point-color);
   }
 
   #contact-top h3 {
@@ -1900,6 +1914,9 @@ nav ul li:hover a {
   #contact-top ul h4 {
     font-size: 1.8rem;
     padding-bottom: 30px;
+  }
+  #contact-top ul h4 span{
+    font-size: 2.4rem;
   }
 
   #contact-top ul p {
@@ -1967,7 +1984,6 @@ nav ul li:hover a {
     width: 3px;
     height: 3px;
     border-radius: 50%;
-    background: var(--point-color);
   }
 
   #contact-top h3 {
@@ -2000,6 +2016,9 @@ nav ul li:hover a {
     line-height: 180%;
     word-break: keep-all;
     text-align: center;
+  }
+    #contact-top ul h4 span{
+    font-size: 1.8rem;
   }
 }
 
